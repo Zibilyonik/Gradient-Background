@@ -1,0 +1,18 @@
+body{
+  font-family: "Open Sans Condensed";
+}
+p,a{
+  font-size: 12px;
+}
+.main-container{
+  width: 95%;
+  margin:0 auto;
+}
+.top{
+  height: 75vh;
+  width: 100%;
+  background-image: url("../images/your_verse_hero_2x.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding
+}
