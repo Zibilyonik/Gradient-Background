@@ -4,6 +4,9 @@ body{
 p,a{
   font-size: 12px;
 }
+a{
+
+}
 h3,h4,h5{
   color: white;
 }
@@ -12,7 +15,7 @@ h3,h4,h5{
   margin:0 auto;
 }
 .top{
-  height: 85vh;
+  height: 80vh;
   width: 100%;
   background-image: url("../images/your_verse_hero_2x.jpg");
   background-size: cover;
@@ -36,4 +39,18 @@ h3,h4,h5{
   width: 100%;
   font-size: 2.5em;
   margin-bottom: 30px;
+}
+.bottom-grid-container {
+  display: grid;
+  width:100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 100%;
+  grid-column-gap: 1px;
+  height: 28vh;
+  margin:2px 0 5px 0;
+}
+
+.bottom-grid-container a img {
+  height: 100%;
+  width: 100%;
 }
