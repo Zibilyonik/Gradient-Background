@@ -22,6 +22,28 @@ h3,h4,h5{
   background-size: cover;
   background-repeat: no-repeat;
 }
+.nav-bar{
+  position: relative;
+  top:250px;
+  width: 1200px;
+  height: 36px;
+  left:300px;
+  background: #707070;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  display:inline-grid;
+  align-items: center;
+  grid-template-columns:repeat(8,1fr);
+}
+.nav-bar * {
+  display: inline-flex;
+  font-size: 24px;
+  justify-content: flex-start;
+
+}
+input{
+  float: right;
+  display: inline-block;
+}
 .top-text{
   display:block;
   text-align: center;
@@ -58,8 +80,11 @@ h3,h4,h5{
   height: 100%;
   width: 100%;
 }
-footer p a, footer div a{
+footer a{
   color:blue;
+}
+footer a:hover{
+  text-decoration: underline;
 }
 .footer-texts{
   width:45%;
